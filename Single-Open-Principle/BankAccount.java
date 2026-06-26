@@ -86,8 +86,6 @@ public class BankAccount {
         return accounType;
     }
 
-    // Correct version — SRP + OCP applied
-
     public static void main(String[] args) {
 
     }
