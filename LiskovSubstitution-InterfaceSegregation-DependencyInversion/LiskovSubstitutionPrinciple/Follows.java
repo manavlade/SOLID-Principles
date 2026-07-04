@@ -1,4 +1,3 @@
-
 /*
 L — Liskov Substitution Principle
 Now there's no false promise. Code that needs to withdraw works only against Withdrawable, and FixedDepositAccount was never offered as something that can be withdrawn from in the general sense — so nobody's batch job can call a method that secretly doesn't work.
